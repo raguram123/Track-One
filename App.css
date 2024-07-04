@@ -1,0 +1,40 @@
+.add_button {
+    text-align: right;
+}
+.tr_color {
+    color: white;
+    background-color:black;
+}
+body{
+    background-color: white;
+    height: 100vh;
+   
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+.paragraph{
+    font-size: 30px;
+    line-break: auto;
+    color: black;
+}
+.image-1{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    height: 85vh;
+    width: 80%;
+}
+
+.start {
+    text-align: center;
+    font-weight: 900;
+}
+.end{
+    font-size: 30px;
+    font-weight: 400;
+}

@@ -1,19 +1,13 @@
-const connectToMongo = require('./db')
-connectToMongo();
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-const express = require('express')
-const app = express()
-const port = 3001
-
-const cors = require('cors')
-const router = require('./Routes/router')
-
-app.use(cors());
-app.use(express.json());
-app.use(router);
-
-app.listen(port, () => {
-  console.log(`App Listening Port ${port}`)
-})
-
-
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+reportWebVitals();
